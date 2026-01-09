@@ -1,0 +1,32 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.container {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 2rem;
+}
+
+.wrapper {
+	display: flex;
+	align-items: center;
+	height: 100vh;
+}
+
+.figure {
+	background: teal;
+	flex: 0 0 40%;
+	height: 100%;
+}
+
+.content {
+	display: flex;
+	flex: 0 0 60%;
+	flex-direction: column;
+	gap: 5rem;
+	padding-left: 5rem;
+}
